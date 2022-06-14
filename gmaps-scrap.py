@@ -40,7 +40,7 @@ def removeDuplicates(arr, n):
  
     return j
 
-chromedrive_path = './chromedriver.exe'
+chromedrive_path = './chromedriver'
 driver = webdriver.Chrome(chromedrive_path)
 
 search_query = '+'.join(sys.argv[1:])
